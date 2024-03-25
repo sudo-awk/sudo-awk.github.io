@@ -21,7 +21,7 @@ repository               : "github.com/sudo-awk"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : ![image](https://github.com/sudo-awk/sudo-awk.github.io/assets/106952099/693ca42c-1b12-4293-90a2-e8498741fcc6)
+  avatar           : "https://github.com/sudo-awk/sudo-awk.github.io/assets/106952099/693ca42c-1b12-4293-90a2-e8498741fcc6"
   name             : "Aaron Aguilar"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
