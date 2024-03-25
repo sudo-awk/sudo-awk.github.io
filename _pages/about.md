@@ -24,15 +24,14 @@ redirect_from:
 * I constantly learn in using the platform below
 * **TryHackMe**,**HackTheBox**,**OverTheWire**,**PicoCTF**,
 
-<script src="https://tryhackme.com/r/badges"></script>
+<script src="https://tryhackme.com/badge/1156778"></script>
 
 
 > ### Tryhackme Paths :
->* [Security Engineer](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-YCESNZD6OJ.png)
->* [Jr Penetration Tester](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-9AVCHFIMUT.png)
->* [CompTIA PenTest+](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-XT1Q9F8HXW.png)
->* [Pre Security](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-IWREBY7WHP.png)
->* [Web Fundamentals](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-HRV8T0BJFH.png)
+>* [Introduction to Pentesting](https://tryhackme.com/appanapants/badges/intro-to-pentesting)
+>* [Mastering Linux Priveleged Escalation](https://tryhackme.com/appanapants/badges/linux-privesc)
+>* [Metasploitable - Mastering Metasploit](https://tryhackme.com/appanapants/badges/metasploitable)
+>* [Owasp Top10](https://tryhackme.com/appanapants/badges/owasp-10)
 
 
 >### Skills :
