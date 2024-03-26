@@ -194,7 +194,7 @@ ftp>
 
 ```
 
-![0d1befa6928135db6d73447e49dbcf9f.png](../_resources/0d1befa6928135db6d73447e49dbcf9f.png)
+![0d1befa6928135db6d73447e49dbcf9f.png](../images/0d1befa6928135db6d73447e49dbcf9f.png)
 
 Actually, I was in a rabbit hole for an hour in this FTP, and after a bit of search to I use the FTP `binary` mode on to download the file.
 
@@ -221,15 +221,15 @@ mget stolen-passport.png [anpqy?]? y
 The first time we downloaded the files, we received an error, I just didnt noticed it,  
 Here is the error below
 
-![9d70e8111e2924acbc8b5a064f14bc2c.png](../_resources/9d70e8111e2924acbc8b5a064f14bc2c.png)
+![9d70e8111e2924acbc8b5a064f14bc2c.png](../images/9d70e8111e2924acbc8b5a064f14bc2c.png)
 
 I was finally able to view the PNG image but it didnt give much information
 
-![a1694efa24645b36bf832b46121f8dbd.png](../_resources/a1694efa24645b36bf832b46121f8dbd.png)
+![a1694efa24645b36bf832b46121f8dbd.png](../images/a1694efa24645b36bf832b46121f8dbd.png)
 
 **web**
 
-![90356c17c3b3fb384e55ae2c3421a29a.png](../_resources/90356c17c3b3fb384e55ae2c3421a29a.png)
+![90356c17c3b3fb384e55ae2c3421a29a.png](../images/90356c17c3b3fb384e55ae2c3421a29a.png)
 
 
 walking through the web hosted on port 1311 we saw that it is running a vulnerable version of `dell openmanage 9.4.0`
@@ -237,7 +237,7 @@ walking through the web hosted on port 1311 we saw that it is running a vulnerab
 
 **exploit**
 
-![d51659c52fc2c7df033b17a3fd6a8b4a.png](../_resources/d51659c52fc2c7df033b17a3fd6a8b4a.png)
+![d51659c52fc2c7df033b17a3fd6a8b4a.png](../images/d51659c52fc2c7df033b17a3fd6a8b4a.png)
 
 
 I have used 3 different exploits for this because the first 2 wont read `C:\inetpub\wwwroot\hacksmartersec\web.config`  when I try to read .. the one that worked was from rhinolabs
@@ -278,18 +278,18 @@ pass: IAmA1337h4x0randIkn0wit!
 
 So we can just access ssh or rdp, I used ssh to access the machine to get the user flag
 
-![b5d0efc54311e96d9913a1df5b84ed85.png](../_resources/b5d0efc54311e96d9913a1df5b84ed85.png)
+![b5d0efc54311e96d9913a1df5b84ed85.png](../images/b5d0efc54311e96d9913a1df5b84ed85.png)
 
 THM{4ll15n0tw3llw1thd3ll}   
 
 **Privileged Escalation**
 
-![1b11277d7195171f5a57a160e7bd56d3.png](../_resources/1b11277d7195171f5a57a160e7bd56d3.png)
+![1b11277d7195171f5a57a160e7bd56d3.png](../images/1b11277d7195171f5a57a160e7bd56d3.png)
 
 I tried to run the winPEAS first, but it was flagged down by defender,,, I tried running privesccheker we are able to see a high vulnerability application owned by localsystem
 
 
-![af7b160b67c802c98149120b399d1bfe.png](../_resources/af7b160b67c802c98149120b399d1bfe.png)
+![af7b160b67c802c98149120b399d1bfe.png](../images/af7b160b67c802c98149120b399d1bfe.png)
 
 ```
 
@@ -307,18 +307,18 @@ StartMode   : Automatic
 creating an exploit, I used a nim reverse shell because a it is undetected.. we can follow the tutorial here  `https://github.com/emrekybs/nim-shell`
 
 
-![f5169f1444574093ae8c37c55f5c023e.png](../_resources/f5169f1444574093ae8c37c55f5c023e.png)
+![f5169f1444574093ae8c37c55f5c023e.png](../images/f5169f1444574093ae8c37c55f5c023e.png)
 
 after I compiled it,, it would spit out an exe file... we just have to rename it and move it over to our victim machine and restart the `spoofer-scheduler service`
 
-![453cb616ebe0fe84c4f93c0eeca66d7d.png](../_resources/453cb616ebe0fe84c4f93c0eeca66d7d.png)
+![453cb616ebe0fe84c4f93c0eeca66d7d.png](../images/453cb616ebe0fe84c4f93c0eeca66d7d.png)
 
 `sc start spoofer-scheduler` and then `sc stop spoofer-scheduler` while we wait for our listening shell
 
-![488dd0f6423c8b828caa3aa2f3fa86f8.png](../_resources/488dd0f6423c8b828caa3aa2f3fa86f8.png)
+![488dd0f6423c8b828caa3aa2f3fa86f8.png](../images/488dd0f6423c8b828caa3aa2f3fa86f8.png)
 
 
-![deee393120201d255fa8163650f00bd6.png](../_resources/deee393120201d255fa8163650f00bd6.png)
+![deee393120201d255fa8163650f00bd6.png](../images/deee393120201d255fa8163650f00bd6.png)
 
 
 ```
@@ -346,20 +346,17 @@ C:\Users\Administrator\Desktop\Hacking-Targets>
 
 root flag: CyberLens, WorkSmarter, SteelMountain
 
-![e0ad265bd9571e14f9bf739406d95f02.png](../_resources/e0ad265bd9571e14f9bf739406d95f02.png)
+![e0ad265bd9571e14f9bf739406d95f02.png](../images/e0ad265bd9571e14f9bf739406d95f02.png)
 
 **chisel**
 
 I dont have much experience with portforwarding yet, I just saw a write up that did this so I did it too for practice, we are able to see that the victim machine is listening internally for port 445 and 139... using chisel we can forward the port so we can have access to it
 
-![77722612d2dc63257a597250710857ab.png](../_resources/77722612d2dc63257a597250710857ab.png)
+![77722612d2dc63257a597250710857ab.png](../images/77722612d2dc63257a597250710857ab.png)
 
 
 
-![f497791f63cfe0e38d048bd3a9011ae0.png](../_resources/f497791f63cfe0e38d048bd3a9011ae0.png)
+![f497791f63cfe0e38d048bd3a9011ae0.png](../images/f497791f63cfe0e38d048bd3a9011ae0.png)
 
-x-special/nautilus-clipboard
-copy
-file:///tmp/VMwareDnD/jojfST/aa.png
 
-![979550bfdcfc4d1bdd0ff21e6ca1ee79.png](../_resources/979550bfdcfc4d1bdd0ff21e6ca1ee79.png)
+![979550bfdcfc4d1bdd0ff21e6ca1ee79.png](../images/979550bfdcfc4d1bdd0ff21e6ca1ee79.png)
