@@ -154,7 +154,7 @@ So we have the following ports open
 
 And additionally, nmap suggests that ftp allows anonymous access
 
-![df65ec9cb6da953e992d75f685e12f2f.png](../_images/df65ec9cb6da953e992d75f685e12f2f.png)
+![df65ec9cb6da953e992d75f685e12f2f.png](../images/df65ec9cb6da953e992d75f685e12f2f.png)
 
 # FTP
 
