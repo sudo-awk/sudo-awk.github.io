@@ -1,3 +1,12 @@
+---
+title: "Hack Smareter"
+collection: publications
+permalink: /publication/Hack_smarter
+excerpt: 'This is a freeom (free room, see what I did there? ;)) fron tryHackme'
+date: 2024-03-125
+citation: 'Aaron Aguilar, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+---
+
 Target :  
 http://10.10.182.162
 
